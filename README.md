@@ -14,29 +14,34 @@ Before you begin, ensure you have met the following requirements:
 ## How to Run It Locally
 
 1. **Clone the Repository**
+   
    Open your terminal and run the following command to clone the repository:
 
    ```sh
    git clone -b main https://github.com/hasifnizam/simplelibrarysystem.git
 
 2. Configure the Database Connection
+   
    Navigate to the application.properties file and update below details with your Oracle database username and password.
 
    ```sh
    spring.datasource.username: yourUserName
    spring.datasource.password: yourPassword
 
-4. Build the Project
+3. Build the Project
+   
    Run the following command to clean and build the project:
 
    ```sh
    mvn clean install
 
-5. Run the Application
+4. Run the Application
+   
    Navigate to the target folder and run the application using the following command:
    
    ```sh
    java -jar simplelibrarysystem-0.0.1-SNAPSHOT.jar
 
-6. Test with Postman
+5. Test with Postman
+    
    Open Postman and import the collection from SimpleLibrarySystem.postman_collection. You can start testing the API endpoints as per the collection.
